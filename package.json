@@ -1,0 +1,24 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "italoservio <me@italoservio.com>",
+  "contributors": ["http://github.com/italoservio"],
+  "engineStrict": true,
+  "engines": {
+    "node": ">= v18.16.0",
+    "npm": ">= v9.5.1"
+  },
+  "scripts": {
+    "start:thread": "node index_thread.js",
+    "start:thread_pool": "node index_thread_pool.js",
+    "start:imperative": "node index_imperative.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "8.0.2",
+    "dayjs": "1.11.7",
+    "worker-threads-pool": "2.0.0"
+  }
+}
